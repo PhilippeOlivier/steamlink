@@ -1,0 +1,3 @@
+- Generate SSH keys
+- change ssh options
+- nvidia drivers
