@@ -8,7 +8,7 @@
   };
 
   outputs = inputs @ { self, nixpkgs, home-manager, ... }: {
-    nixosConfigurations.steamlink = nixpkgs.lib.nixosSystem {
+    nixosConfigurations.steamlink-nixos = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       modules = [
         ./configuration.nix
