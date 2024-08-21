@@ -6,6 +6,7 @@
     ./modules/boot.nix
     ./modules/crypto.nix
     ./modules/network.nix
+    ./modules/steam.nix
     ./modules/system.nix
     ./modules/users.nix
     ./modules/zfs.nix
