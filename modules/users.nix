@@ -18,5 +18,5 @@
     ];
   };
 
-  services.getty.autologinUser = username;
+  services.getty.autologinUser = "steamlink";
 }
